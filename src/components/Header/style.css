@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .nav-logo-container img {
+    height: 45px;
+  }
+  .mainContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  ul li {
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .nav-logo-container img {
+    height: 45px;
+  }
+  .mainContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 15px;
+    align-items: center;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  ul li {
+    margin: 5px;
+  }
+}
